@@ -1,0 +1,81 @@
+<mxfile host="65bd71144e">
+    <diagram id="zoBqLeQYzjH0e6KQ3w1y" name="DER">
+        <mxGraphModel dx="1054" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-20" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-1" target="9Ophh4hkpyQehhS7zP9B-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-1" value="TARJETAS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="30" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-2" value="USUARIOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="400" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-11" value="MOVIMIENTOS" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="300" y="310" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-19" style="edgeStyle=none;html=1;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-13" target="9Ophh4hkpyQehhS7zP9B-18">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-13" value="CUENTA" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="110" y="210" width="120" height="60" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-15" style="edgeStyle=none;html=1;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-14" target="9Ophh4hkpyQehhS7zP9B-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-16" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-14" target="9Ophh4hkpyQehhS7zP9B-2">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-14" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="310" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-18" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="150" y="130" width="40" height="40" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-22" style="edgeStyle=none;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-21" target="9Ophh4hkpyQehhS7zP9B-13">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-23" style="edgeStyle=none;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="9Ophh4hkpyQehhS7zP9B-21" target="9Ophh4hkpyQehhS7zP9B-11">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="9Ophh4hkpyQehhS7zP9B-21" value="" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+                    <mxGeometry x="340" y="220" width="40" height="40" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+    <diagram id="-W4RHmoGt5pSULT6D-bA" name="BD">
+        <mxGraphModel dx="1054" dy="620" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="QUbLKqWa30zaEBfwtq2B-0"/>
+                <mxCell id="QUbLKqWa30zaEBfwtq2B-1" parent="QUbLKqWa30zaEBfwtq2B-0"/>
+                <mxCell id="UHuo53LSWyeQ482p9hCo-0" value="TARJETAS" style="swimlane;" vertex="1" parent="QUbLKqWa30zaEBfwtq2B-1">
+                    <mxGeometry x="60" y="90" width="200" height="100" as="geometry"/>
+                </mxCell>
+                <mxCell id="UHuo53LSWyeQ482p9hCo-3" value="ID&lt;br style=&quot;font-size: 18px;&quot;&gt;NUMERO&lt;br style=&quot;font-size: 18px;&quot;&gt;CVV" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="UHuo53LSWyeQ482p9hCo-0">
+                    <mxGeometry x="10" y="25" width="100" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UHuo53LSWyeQ482p9hCo-4" value="CUENTA" style="swimlane;fontSize=18;" vertex="1" parent="QUbLKqWa30zaEBfwtq2B-1">
+                    <mxGeometry x="314" y="70" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="UHuo53LSWyeQ482p9hCo-5" value="ID&lt;br&gt;SALDO&lt;br&gt;&lt;div style=&quot;&quot;&gt;&lt;span&gt;USUARIO-ID&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="UHuo53LSWyeQ482p9hCo-4">
+                    <mxGeometry x="4" y="30" width="120" height="70" as="geometry"/>
+                </mxCell>
+                <mxCell id="UHuo53LSWyeQ482p9hCo-6" value="MOVIMIENTOS" style="swimlane;fontSize=18;" vertex="1" parent="QUbLKqWa30zaEBfwtq2B-1">
+                    <mxGeometry x="309" y="280" width="210" height="160" as="geometry"/>
+                </mxCell>
+                <mxCell id="D_Q_ttqE10PUk1fXytOu-1" value="ID&lt;br&gt;FECHA-MOVIMIENTO&lt;br&gt;IMPORTE&lt;br&gt;CUENTA-ID" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="UHuo53LSWyeQ482p9hCo-6">
+                    <mxGeometry x="5" y="30" width="200" height="90" as="geometry"/>
+                </mxCell>
+                <mxCell id="D_Q_ttqE10PUk1fXytOu-0" value="USUARIOS" style="swimlane;fontSize=18;" vertex="1" parent="QUbLKqWa30zaEBfwtq2B-1">
+                    <mxGeometry x="50" y="280" width="200" height="140" as="geometry"/>
+                </mxCell>
+                <mxCell id="D_Q_ttqE10PUk1fXytOu-2" value="ID&lt;br&gt;NOMBRE&lt;br&gt;APELLIDO&lt;br&gt;PIN" style="text;html=1;align=left;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;fontSize=18;" vertex="1" parent="D_Q_ttqE10PUk1fXytOu-0">
+                    <mxGeometry x="10" y="30" width="100" height="90" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
