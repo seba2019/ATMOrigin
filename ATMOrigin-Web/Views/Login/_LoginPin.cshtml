@@ -1,0 +1,25 @@
+﻿@model ATMOrigin_Web.ViewModels.DataCardVM
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label asp-for="PIN"></label>
+            <input type="text" id="numberPin" class="form-control numberPin number" asp-for="PIN" />
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <div class="text-center">
+            <a class="btn btn-outline-primary" data-toggle="collapse" href="#keyPadPin"><i class="fa fa-keyboard"></i></a>
+            <div id="keyPadPin" class="collapse">
+                <partial name="_KeyPad" />
+            </div>
+        </div>
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <a type="submit" class="btn btn-primary" asp-action="Login" asp-controller="Login">Ingresar</a>
+        <a id="btnBackCard" class="btn btn-primary" asp-action="Index" asp-controller="Login">Volver</a>
+    </div>
+</div>

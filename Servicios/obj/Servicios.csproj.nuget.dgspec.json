@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\svega\\Desktop\\File\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj": {}
+    "D:\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj": {}
   },
   "projects": {
-    "C:\\Users\\svega\\Desktop\\File\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj": {
+    "D:\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\svega\\Desktop\\File\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj",
+        "projectUniqueName": "D:\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj",
         "projectName": "Servicios",
-        "projectPath": "C:\\Users\\svega\\Desktop\\File\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj",
-        "packagesPath": "C:\\Users\\svega\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\svega\\Desktop\\File\\Proyectos\\ATMOrigin\\Servicios\\obj\\",
+        "projectPath": "D:\\Proyectos\\ATMOrigin\\Servicios\\Servicios.csproj",
+        "packagesPath": "C:\\Users\\Sebastian\\.nuget\\packages\\",
+        "outputPath": "D:\\Proyectos\\ATMOrigin\\Servicios\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\svega\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Sebastian\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -54,7 +54,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

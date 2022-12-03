@@ -1,0 +1,15 @@
+﻿
+@{
+    Layout = "_Layout";
+}
+@model ATMOrigin_Web.ViewModels.ErrorMsgVM
+
+<div class="jumbotron jumbotron-fluid">
+  <div class="container">
+    <h1 class="display-4">@Model.Title</h1>
+    <p class="lead">@Model.Message</p>
+    <hr />
+    <a class="btn btn-primary" href="@Model.UrlBack">Volver</a>
+  </div>
+
+</div>

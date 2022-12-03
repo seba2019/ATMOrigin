@@ -1,0 +1,26 @@
+﻿@model ATMOrigin_Web.ViewModels.DataCardVM
+<div class="row">
+    <div class="col">
+        <div class="form-group">
+            <label asp-for="NumberCard"></label>
+            <input type="text" id="numberCard" class="form-control numberCard number" asp-for="NumberCard"/>
+        </div>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col">
+        <div class="text-center">
+            <a class="btn btn-outline-primary" data-toggle="collapse" href="#keyPadCard"><i class="fa fa-keyboard"></i></a>
+            <div id="keyPadCard" class="collapse">
+                <partial name="_KeyPad"/>
+            </div>
+        </div>
+
+    </div>
+</div>
+<div class="row">
+    <div class="col">
+        <button id="ValidateCard" class="btn btn-primary">Validar Tarjeta</button>
+    </div>
+</div>
